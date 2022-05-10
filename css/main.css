@@ -1,0 +1,37 @@
+main {
+    padding-top: 5rem;
+    max-width: 100%;
+    min-height: 100vh;
+}
+.project-description{
+    max-width: 700px;
+    margin: 2rem auto;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.section-title {
+    font-size: 3rem;
+    margin: 0 auto;
+    width: max-content;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.main-content{
+    position: relative;
+    z-index: 2;
+}
+@media all and (max-width:960px) {
+    .section-title{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media all and (max-width:655px) {
+    .section-title {
+        font-size: 2.5rem;
+    }
+    .project-description{
+        font-size: 1.5rem;
+    }
+}
